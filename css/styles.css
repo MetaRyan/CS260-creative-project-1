@@ -1,0 +1,52 @@
+html,
+body {
+    height: 100%
+}
+
+h1 {
+    text-align: center;
+}
+
+#content {
+    flex: 1 0 auto;
+    margin: 1em 1em 1em 1em;
+}
+
+.inline-img {
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Menu */
+.bg-primary {
+    background-color: #22224c !important;
+}
+
+/* Footer */
+#sticky-footer {
+    flex-shrink: none;
+}
+
+/* Photo Grid */
+.masonry-photo-grid {
+    column-count: 4;
+    column-gap: 1em;
+}
+
+.photo {
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    /* width: 100%; */
+    max-height: auto;
+    max-width: 100%;
+}
+
+.photo img {
+    margin: 0 0 0;
+}
