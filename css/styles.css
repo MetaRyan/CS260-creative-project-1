@@ -7,6 +7,10 @@ h1 {
     text-align: center;
 }
 
+#sticky-footer a {
+    color: #17FFE4;
+}
+
 #content {
     flex: 1 0 auto;
     margin: 1em 1em 1em 1em;
@@ -24,7 +28,7 @@ h1 {
 
 /* Menu */
 .bg-primary {
-    background-color: #22224c !important;
+    background-color: #0A7064 !important;
 }
 
 /* Footer */
