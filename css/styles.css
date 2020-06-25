@@ -3,6 +3,12 @@ body {
     height: 100%
 }
 
+body {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+
+
 h1 {
     text-align: center;
 }
@@ -11,9 +17,16 @@ h1 {
     color: #17FFE4;
 }
 
+#sticky-footer {
+    font-family: 'Raleway', sans-serif;
+}
+
 #content {
-    flex: 1 0 auto;
-    margin: 1em 1em 1em 1em;
+    padding: 1em 1em 6em 1em;
+}
+
+.navbar {
+    font-family: 'Raleway', sans-serif;
 }
 
 .inline-img {
